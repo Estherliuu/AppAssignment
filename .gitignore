@@ -63,5 +63,5 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
-*.xml
+
 app/src/main/res/.DS_Store
