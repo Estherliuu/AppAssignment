@@ -24,9 +24,12 @@ public class MainActivty extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivty.java
       //  Button button = (Button) findViewById(R.id.button);
 
 
+=======
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivtyWithSideBar.java
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

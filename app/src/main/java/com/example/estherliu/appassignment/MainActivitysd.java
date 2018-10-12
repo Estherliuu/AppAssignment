@@ -8,21 +8,52 @@ import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
 import android.support.v7.app.ActionBarDrawerToggle;
+=======
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
 import android.widget.Toolbar;
+=======
+import android.widget.Button;
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
 
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
+    private Button button;
+
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
 public class MainActivitysd extends AppCompatActivity {
+=======
+public class MainActivity extends AppCompatActivity {
+    //private static int SPLASH_TIME_OUT = 4000;
+
+    setContentView(R.layout.activity_main);
+
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
         setContentView(R.layout.activity_main);
 
+=======
+        setContentView(R.layout.landing_page);
+}
+        //initialise button
+        button = (Button) findViewById(R.id.startButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                openLandingPage();
+            }
+        });
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
        // setSupportActionBar(toolbar);
@@ -45,7 +76,16 @@ public class MainActivitysd extends AppCompatActivity {
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
     */}
+=======
+        }
+
+//    public void openLandingPage() {
+//        Intent intent = new Intent(this, LandingPage.class);
+//        startActivity(intent);
+//    }
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
 
     @Override
     public void onBackPressed() {
@@ -77,10 +117,14 @@ public class MainActivitysd extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+<<<<<<< HEAD:app/src/main/java/com/example/estherliu/appassignment/MainActivitysd.java
+=======
+    }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768:app/src/main/java/com/example/estherliu/appassignment/MainActivity.java
     }
 }
 
-
-
-
-
+}

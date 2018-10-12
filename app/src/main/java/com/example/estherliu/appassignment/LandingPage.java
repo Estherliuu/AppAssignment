@@ -22,7 +22,7 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
         bpmCard = (CardView) findViewById(R.id.bpm_card);
         quizCard = (CardView) findViewById(R.id.quiz_card);
 
-        //adding click listeners to cards
+        //adding onclick listeners to cards
         bpmCard.setOnClickListener(this);
         quizCard.setOnClickListener(this);
     }
@@ -42,5 +42,9 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
             break;
             default: break;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4b81f89ebac2839ee131e6ef51967ce347f0768
     }
 }
