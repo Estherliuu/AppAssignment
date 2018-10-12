@@ -17,8 +17,7 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.landing_page);
-<<<<<<< HEAD
-=======
+
         //defining cards in landing page
         bpmCard = (CardView) findViewById(R.id.bpm_card);
         quizCard = (CardView) findViewById(R.id.quiz_card);
@@ -43,7 +42,6 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
             break;
             default: break;
         }
->>>>>>> 3c2dff8af557bc960bf4f5e27ebb13b84334acec
 
     }
 }
