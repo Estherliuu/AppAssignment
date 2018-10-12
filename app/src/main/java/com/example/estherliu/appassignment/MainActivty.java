@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivtyWithSideBar extends AppCompatActivity
+public class MainActivty extends AppCompatActivity
 
 
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -24,7 +24,7 @@ public class MainActivtyWithSideBar extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button) findViewById(R.id.button);
+      //  Button button = (Button) findViewById(R.id.button);
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
