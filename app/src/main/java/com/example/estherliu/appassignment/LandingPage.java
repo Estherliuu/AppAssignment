@@ -2,6 +2,7 @@ package com.example.estherliu.appassignment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
@@ -9,10 +10,15 @@ import android.view.View;
 public class LandingPage extends AppCompatActivity implements View.OnClickListener {
     private CardView bpmCard, quizCard;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.landing_page);
+<<<<<<< HEAD
+=======
         //defining cards in landing page
         bpmCard = (CardView) findViewById(R.id.bpm_card);
         quizCard = (CardView) findViewById(R.id.quiz_card);
@@ -37,6 +43,7 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
             break;
             default: break;
         }
+>>>>>>> 3c2dff8af557bc960bf4f5e27ebb13b84334acec
 
     }
 }
