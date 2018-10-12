@@ -19,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity"></activity>
+=======
+        <activity android:name=".BPM" />
+        <activity android:name=".Quiz"></activity>
+>>>>>>> 3c2dff8af557bc960bf4f5e27ebb13b84334acec
     </application>
 
 </manifest>
